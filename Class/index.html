@@ -9,59 +9,71 @@
     <meta name="author" content="Jose Guzman">
     <meta name="description" content="Basic HTML example">
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
   </head>
   <!-- This is the body of my website -->
   <body>
       <!-- This is my Header -->
       <header>
-        <nav>
-          <ul>
-            <li>   <a href="https://www.apple.com/">Apple</a>  </li>
-            <li>    <a href="http://guzmanj.com">  Guzman  </a>   </li>
+        <nav class="navigation" >
+          <ul class="horizontaLine">
+            <li>  <a href="https://www.apple.com">Apple</a>  </li>
+            <li>  <a href="http://guzmanj.com">  Guzman  </a>   </li>
             <li> <a href="https://facebook.com">Facebook</a> </li>
           </ul>
         </nav>
       </header>
 
+      <aside class="sidebar">
+        <h3>SideBar</h3>
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ul>
+        <ol>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ol>
+      </aside>
 
-        <section>
-          <!-- to create sidebars -->
-          <aside>
-            <ul>
-              <li>item 1</li>
-              <li>item 2</li>
-              <li>item 3</li>
-            </ul>
-            <ol>
-              <li>item 1</li>
-              <li>item 2</li>
-              <li>item 3</li>
-            </ol>
-          </aside>
 
-          <!-- We use it for articles magazines, posts, etc. -->
-          <article>
+
+        <div class="container">
+          <section>
             <h1>Title</h1>
-            <h2>Subtitle</h2>
-            <p>
-              <!-- This is for best practices -->
-              <strong>"Lorem ipsum dolor sit amet,</strong>
-              <em>consectetur adipiscing elit, sed do eiusmod</em>
-              <b>incididunt ut labore et dolore magna aliqua.</b>
-              <i>incididunt ut labore et dolore magna aliqua.</i>
-                Ut enim ad minim veniam,
-               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-               nulla pariatur.
-            </p>
-            <img src="img/Bulldog.jpg" alt="English Bulldog" width="400px">
+            <!-- to create sidebars -->
+            <!-- We use it for articles magazines, posts, etc. -->
+            <article class="article">
 
-          </article>
+              <h2>Subtitle</h2>
+              <p>
+                <!-- This is for best practices -->
+                <strong>"Lorem ipsum dolor sit amet,</strong>
+                <em>consectetur adipiscing elit, sed do eiusmod</em>
+                <b>incididunt ut labore et dolore magna aliqua.</b>
+                <i>incididunt ut labore et dolore magna aliqua.</i>
+                  Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                 nulla pariatur.
+              </p>
+            <img id="dog" src="img/Bulldog.jpg" alt="English Bulldog" width="400">
 
-        </section>
+            </article>
+
+          </section>
+        </div>
+
+
 
 
         <section>
+          <h1>Contact Information</h1>
           <address>
             <ul>
               <li>Name: Jose Guzman</li>
