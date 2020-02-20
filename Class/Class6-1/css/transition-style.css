@@ -177,11 +177,11 @@ transition-timing-function: ease-in-out;
   float: right;
   width: 42%;
 }
-.cardRight .colorBox
+.colorBox
 {
   margin: auto;
   height: 600px;
-  background-color: pink;
+  background-color: lightblue;
 }
 .cardBase
 {
@@ -206,7 +206,7 @@ transition: transform 2000ms ease-in-out 10ms, background-color 2000ms ease-in-o
 .trigger2:hover .animation
 {
   transform: scale(2,2) rotate(360deg) translate(200px, 50px);
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 /* ---------------------------------- ENDDEBUG SECTION ------------------------------------------- */
