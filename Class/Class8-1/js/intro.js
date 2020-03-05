@@ -1,19 +1,24 @@
 $(document).ready(function(){
 
 
+      Alert =   function (){ // now has global scope
+          alert("This is an alert box");
+        };
+
       //Selecting content
-      $(".greeting")
+      $("h1").text("Greetings");
       //Modifying content
-      .text("Greetings");
+      // .text("Greetings");
 
 
       // Reacting on click
       $(".hi").click(function(){
           //Modifying content
           $(".greeting").text("Hi");
-          $(".greeting").css("font-family", "serif");
+          $(".greeting").css("font--family", "serif");
 
       });
+
 
       //Program Rules (like a recipe)
       $(".hello").click(function(){
@@ -38,12 +43,10 @@ $(document).ready(function(){
       //Program Rules (like a recipe)
       $(".button2").click(function(){
           //Modifying content
-        $(".grid div:first-child ").css("background-color", "pink");
-        $(".grid div:nth-child(2) ").css("background-color", "pink");
-        $(".grid div:nth-child(3) ").css("background-color", "pink");
+        $(".grid div:first-child").css("background-color", "pink");
+        $(".grid div:nth-child(2)").css("background-color", "pink");
+        $(".grid div:nth-child(3)").css("background-color", "pink")
 
       });
-
-
 
 });

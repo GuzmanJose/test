@@ -113,7 +113,6 @@ background-color: pink;
 
   display: grid;
   grid-template-rows: 10% 20% 50% 20%;
-  /* grid-row-gap: 10px; */
   grid-template-columns: 1fr;
 }
 
@@ -144,6 +143,7 @@ background-color: pink;
 
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
+
 
 }
 
