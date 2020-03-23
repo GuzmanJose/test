@@ -15,7 +15,7 @@ $(document).ready(function(){
       $(".hi").click(function(){
           //Modifying content
           $(".greeting").text("Hi");
-          $(".greeting").css("font--family", "serif");
+          $(".greeting").css("font-family", "serif");
 
       });
 
