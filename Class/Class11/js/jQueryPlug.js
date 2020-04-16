@@ -4,5 +4,7 @@ $(document).ready(function() {
 
 	$('.fancyTitle').lettering('lines');
 
+	$('.gradient').lettering();
+
 
 });

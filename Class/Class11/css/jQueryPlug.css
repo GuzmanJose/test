@@ -62,7 +62,7 @@
 .fancyTitle .line2
 {
   font-size: 38px;
-  font-weight: lighter;
+  font-weight:lighter;
   text-transform: lowercase;
   display: block;
   font-style: italic;
@@ -83,6 +83,5 @@
   margin-top: 50px;
   text-align: center;
 }
-
 
 /* ---------------------  Lettering ------------------ */

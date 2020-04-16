@@ -28,7 +28,6 @@ h1
   height: 100vh;
   background-color: black;
   position: absolute;
-
 }
 
 
@@ -54,17 +53,22 @@ h1
   animation: movement 20s linear infinite;
 }
 
+.squares li:first-child
+{
+top: 100%;
+}
+
 @keyframes movement {
 
 0%
 {
-  transform: translateY(0) rotate(0deg);
+  transform: translateY(0) rotate(0deg) scale(1,1);
   opacity: 1;
 }
 
 100%
 {
-    transform: translateY(-1000%) rotate(460deg);
+    transform: translateY(-800px) rotate(460deg) scale(0,0);
     opacity: 0;
 }
 

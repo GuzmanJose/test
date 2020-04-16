@@ -1,6 +1,10 @@
 $(document).ready( function(){
 
 
+$(".smallGridBug div:first-child p").hide();
+
+
+
 $("#_hide").click(function(){
   $(".gridContent div:first-child p").hide(3000);
 });
@@ -32,5 +36,36 @@ $("footer").mouseleave(function(){
 });
 
 
+$("#show1").click(function(){
+  $(".smallGridBug div:first-child p").show();
+});
+
+$("#hide1").click(function(){
+  $(".smallGridBug div:first-child p").hide();
+});
+
+$("#toggle1").click(function(){
+   $(".smallGridBug div:nth-child(2) p").toggle();
+});
+
+$("#html1").click(function() {
+   $(".smallGridBug div:nth-child(3) p").html(" <h1>Hello World! </h1>");
 
 });
+
+$("#css1").click(function(){
+
+  $(".smallGridBug div:nth-child(3) p").css("color", "lightblue");
+  $(".smallGridBug div:nth-child(4) p").css({"color": "pink", "font-size": "8px", "font-family": "serif"});
+
+
+
+});
+
+
+
+
+
+
+
+}); //end of document ready
